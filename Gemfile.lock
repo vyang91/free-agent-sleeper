@@ -64,4 +64,4 @@ DEPENDENCIES
   webdrivers (~> 4.0)
 
 BUNDLED WITH
-   1.16.6
+   2.0.2

@@ -1,0 +1,266 @@
+STARTING UP
+Fri Sep  6 01:46:28 EDT 2019
+Waivers have not cleared
+.Waivers have not cleared
+.
+
+Finished in 1 minute 48.22 seconds (files took 0.92664 seconds to load)
+2 examples, 0 failures
+
+Fri Sep  6 01:48:17 EDT 2019
+DONE
+STARTING UP
+Fri Sep  6 01:48:38 EDT 2019
+Waivers have not cleared
+.RSpec::Repeat: 1st try error in ./spec/yahoo/add_free_agent.rb:55:
+  expected to find css ".First.Last" 1 time but there were no matches
+Waivers have not cleared
+.
+
+Finished in 2 minutes 48.4 seconds (files took 0.89834 seconds to load)
+2 examples, 0 failures
+
+Fri Sep  6 01:51:28 EDT 2019
+DONE
+STARTING UP
+Fri Sep  6 04:05:01 EDT 2019
+Congratulations! Philadelphia was added.
+.Congratulations! Darren Waller was added.
+.
+
+Finished in 2 minutes 36.5 seconds (files took 0.99758 seconds to load)
+2 examples, 0 failures
+
+Fri Sep  6 04:07:39 EDT 2019
+DONE
+STARTING UP
+Wed Sep 11 04:05:00 EDT 2019
+RSpec::Repeat: 1st try error in ./spec/yahoo/add_free_agent.rb:50:
+  expected to find css ".First.Last" 1 time but there were no matches
+RSpec::Repeat: 2nd try error in ./spec/yahoo/add_free_agent.rb:50:
+  Net::ReadTimeout
+RSpec::Repeat: 3rd try error in ./spec/yahoo/add_free_agent.rb:50:
+  Unable to find css "td.player"
+FRSpec::Repeat: 1st try error in ./spec/yahoo/add_free_agent.rb:55:
+  expected to find css ".First.Last" 1 time but there were no matches
+RSpec::Repeat: 2nd try error in ./spec/yahoo/add_free_agent.rb:55:
+  expected to find css ".First.Last" 1 time but there were no matches
+Sorry, someone else probably got Carolina.
+.Sorry, someone else probably got Ronald Jones II.
+.RSpec::Repeat: 1st try error in ./spec/yahoo/add_free_agent.rb:65:
+  expected to find css ".First.Last" 1 time but there were no matches
+Sorry, someone else probably got Ronald Jones II.
+.
+
+Failures:
+
+  1) Add free agents to Fantasy Football league Log in and add/drop player
+     Failure/Error: find('td.player', :text => abbrev).find(:xpath, '..').find('button.add-drop-trigger-btn').click
+
+     Capybara::ElementNotFound:
+       Unable to find css "td.player"
+     # ./spec/yahoo/add_free_agent.rb:26:in `add_drop'
+     # ./spec/yahoo/add_free_agent.rb:51:in `block (2 levels) in <top (required)>'
+     # ./spec/spec_helper.rb:26:in `block (2 levels) in <top (required)>'
+
+Finished in 9 minutes 55 seconds (files took 1.33 seconds to load)
+4 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/yahoo/add_free_agent.rb:50 # Add free agents to Fantasy Football league Log in and add/drop player
+
+Wed Sep 11 04:14:57 EDT 2019
+DONE
+STARTING UP
+Thu Sep 12 04:05:00 EDT 2019
+RSpec::Repeat: 1st try error in ./spec/yahoo/add_free_agent.rb:50:
+  no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+RSpec::Repeat: 2nd try error in ./spec/yahoo/add_free_agent.rb:50:
+  undefined method `map' for nil:NilClass
+RSpec::Repeat: 3rd try error in ./spec/yahoo/add_free_agent.rb:50:
+  unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=76.0.3809.132)
+FRSpec::Repeat: 1st try error in ./spec/yahoo/add_free_agent.rb:55:
+  unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.132)
+RSpec::Repeat: 2nd try error in ./spec/yahoo/add_free_agent.rb:55:
+  undefined method `map' for nil:NilClass
+RSpec::Repeat: 3rd try error in ./spec/yahoo/add_free_agent.rb:55:
+  unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.132)
+FRSpec::Repeat: 1st try error in ./spec/yahoo/add_free_agent.rb:60:
+  unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.132)
+RSpec::Repeat: 2nd try error in ./spec/yahoo/add_free_agent.rb:60:
+  unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=76.0.3809.132)
+RSpec::Repeat: 3rd try error in ./spec/yahoo/add_free_agent.rb:60:
+  no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+FRSpec::Repeat: 1st try error in ./spec/yahoo/add_free_agent.rb:65:
+  unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.132)
+RSpec::Repeat: 2nd try error in ./spec/yahoo/add_free_agent.rb:65:
+  unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.132)
+RSpec::Repeat: 3rd try error in ./spec/yahoo/add_free_agent.rb:65:
+  undefined method `map' for nil:NilClass
+F
+
+Failures:
+
+  1) Add free agents to Fantasy Football league Log in and add/drop player
+     Failure/Error: visit YAHOO_PLAYERS
+
+     Selenium::WebDriver::Error::UnknownError:
+       unknown error: cannot determine loading status
+       from unknown error: cannot determine loading status
+       from disconnected: Unable to receive message from renderer
+         (Session info: chrome=76.0.3809.132)
+     # 0   chromedriver                        0x000000010d64bf69 chromedriver + 3649385
+     # 1   chromedriver                        0x000000010d5dbf73 chromedriver + 3190643
+     # 2   chromedriver                        0x000000010d37cb1f chromedriver + 703263
+     # 3   chromedriver                        0x000000010d36fb42 chromedriver + 650050
+     # 4   chromedriver                        0x000000010d36eefe chromedriver + 646910
+     # 5   chromedriver                        0x000000010d36f347 chromedriver + 648007
+     # 6   chromedriver                        0x000000010d37b720 chromedriver + 698144
+     # 7   chromedriver                        0x000000010d36fd0e chromedriver + 650510
+     # 8   chromedriver                        0x000000010d370bbd chromedriver + 654269
+     # 9   chromedriver                        0x000000010d36fe91 chromedriver + 650897
+     # 10  chromedriver                        0x000000010d36fb0f chromedriver + 649999
+     # 11  chromedriver                        0x000000010d36eefe chromedriver + 646910
+     # 12  chromedriver                        0x000000010d36f347 chromedriver + 648007
+     # 13  chromedriver                        0x000000010d37989c chromedriver + 690332
+     # 14  chromedriver                        0x000000010d37a272 chromedriver + 692850
+     # 15  chromedriver                        0x000000010d381fe3 chromedriver + 724963
+     # 16  chromedriver                        0x000000010d3188ec chromedriver + 293100
+     # 17  chromedriver                        0x000000010d30e9f3 chromedriver + 252403
+     # 18  chromedriver                        0x000000010d2ea5e2 chromedriver + 103906
+     # 19  chromedriver                        0x000000010d2eb6a5 chromedriver + 108197
+     # 20  chromedriver                        0x000000010d609a5f chromedriver + 3377759
+     # 21  chromedriver                        0x000000010d615780 chromedriver + 3426176
+     # 22  chromedriver                        0x000000010d615518 chromedriver + 3425560
+     # 23  chromedriver                        0x000000010d5e9ea9 chromedriver + 3247785
+     # 24  chromedriver                        0x000000010d615ff8 chromedriver + 3428344
+     # 25  chromedriver                        0x000000010d5fdd47 chromedriver + 3329351
+     # 26  chromedriver                        0x000000010d632e54 chromedriver + 3546708
+     # 27  chromedriver                        0x000000010d651ca7 chromedriver + 3673255
+     # 28  libsystem_pthread.dylib             0x00007fff6ba1c2eb _pthread_body + 126
+     # 29  libsystem_pthread.dylib             0x00007fff6ba1f249 _pthread_start + 66
+     # 30  libsystem_pthread.dylib             0x00007fff6ba1b40d thread_start + 13
+     # ./spec/yahoo/add_free_agent.rb:42:in `block (2 levels) in <top (required)>'
+     # ./spec/spec_helper.rb:26:in `block (2 levels) in <top (required)>'
+
+  2) Add free agents to Fantasy Football league Log in and add/drop player
+     Failure/Error: visit YAHOO_PLAYERS
+
+     Selenium::WebDriver::Error::UnknownError:
+       unknown error: cannot determine loading status
+       from unknown error: cannot determine loading status
+       from disconnected: received Inspector.detached event
+         (Session info: chrome=76.0.3809.132)
+     # 0   chromedriver                        0x000000010cd0af69 chromedriver + 3649385
+     # 1   chromedriver                        0x000000010cc9af73 chromedriver + 3190643
+     # 2   chromedriver                        0x000000010ca3bb1f chromedriver + 703263
+     # 3   chromedriver                        0x000000010ca2f372 chromedriver + 652146
+     # 4   chromedriver                        0x000000010ca2edcb chromedriver + 650699
+     # 5   chromedriver                        0x000000010ca2eb0f chromedriver + 649999
+     # 6   chromedriver                        0x000000010ca2defe chromedriver + 646910
+     # 7   chromedriver                        0x000000010ca2e347 chromedriver + 648007
+     # 8   chromedriver                        0x000000010ca3a720 chromedriver + 698144
+     # 9   chromedriver                        0x000000010ca2ed0e chromedriver + 650510
+     # 10  chromedriver                        0x000000010ca2fbbd chromedriver + 654269
+     # 11  chromedriver                        0x000000010ca2ee91 chromedriver + 650897
+     # 12  chromedriver                        0x000000010ca2eb0f chromedriver + 649999
+     # 13  chromedriver                        0x000000010ca2defe chromedriver + 646910
+     # 14  chromedriver                        0x000000010ca2e347 chromedriver + 648007
+     # 15  chromedriver                        0x000000010ca3889c chromedriver + 690332
+     # 16  chromedriver                        0x000000010ca39272 chromedriver + 692850
+     # 17  chromedriver                        0x000000010ca40fe3 chromedriver + 724963
+     # 18  chromedriver                        0x000000010c9d78ec chromedriver + 293100
+     # 19  chromedriver                        0x000000010c9cd9f3 chromedriver + 252403
+     # 20  chromedriver                        0x000000010c9a95e2 chromedriver + 103906
+     # 21  chromedriver                        0x000000010c9aa6a5 chromedriver + 108197
+     # 22  chromedriver                        0x000000010ccc8a5f chromedriver + 3377759
+     # 23  chromedriver                        0x000000010ccd4780 chromedriver + 3426176
+     # 24  chromedriver                        0x000000010ccd4518 chromedriver + 3425560
+     # 25  chromedriver                        0x000000010cca8ea9 chromedriver + 3247785
+     # 26  chromedriver                        0x000000010ccd4ff8 chromedriver + 3428344
+     # 27  chromedriver                        0x000000010ccbcd47 chromedriver + 3329351
+     # 28  chromedriver                        0x000000010ccf1e54 chromedriver + 3546708
+     # 29  chromedriver                        0x000000010cd10ca7 chromedriver + 3673255
+     # 30  libsystem_pthread.dylib             0x00007fff6ba1c2eb _pthread_body + 126
+     # 31  libsystem_pthread.dylib             0x00007fff6ba1f249 _pthread_start + 66
+     # 32  libsystem_pthread.dylib             0x00007fff6ba1b40d thread_start + 13
+     # ./spec/yahoo/add_free_agent.rb:42:in `block (2 levels) in <top (required)>'
+     # ./spec/spec_helper.rb:26:in `block (2 levels) in <top (required)>'
+
+  3) Add free agents to Fantasy Football league Log in and add/drop another player
+     Failure/Error: find('.skip-now').click if page.has_text?('secure my account') # Sometimes Yahoo will ask to add a phone number, so we skip this.
+
+     Selenium::WebDriver::Error::NoSuchWindowError:
+       no such window: target window already closed
+       from unknown error: web view not found
+         (Session info: chrome=76.0.3809.132)
+     # 0   chromedriver                        0x0000000101afcf69 chromedriver + 3649385
+     # 1   chromedriver                        0x0000000101a8cf73 chromedriver + 3190643
+     # 2   chromedriver                        0x000000010182db1f chromedriver + 703263
+     # 3   chromedriver                        0x0000000101817dae chromedriver + 613806
+     # 4   chromedriver                        0x00000001017c0345 chromedriver + 254789
+     # 5   chromedriver                        0x00000001017c91e9 chromedriver + 291305
+     # 6   chromedriver                        0x00000001017bf9f3 chromedriver + 252403
+     # 7   chromedriver                        0x000000010179b5e2 chromedriver + 103906
+     # 8   chromedriver                        0x000000010179c6a5 chromedriver + 108197
+     # 9   chromedriver                        0x0000000101abaa5f chromedriver + 3377759
+     # 10  chromedriver                        0x0000000101ac6780 chromedriver + 3426176
+     # 11  chromedriver                        0x0000000101ac6518 chromedriver + 3425560
+     # 12  chromedriver                        0x0000000101a9aea9 chromedriver + 3247785
+     # 13  chromedriver                        0x0000000101ac6ff8 chromedriver + 3428344
+     # 14  chromedriver                        0x0000000101aaed47 chromedriver + 3329351
+     # 15  chromedriver                        0x0000000101ae3e54 chromedriver + 3546708
+     # 16  chromedriver                        0x0000000101b02ca7 chromedriver + 3673255
+     # 17  libsystem_pthread.dylib             0x00007fff6ba1c2eb _pthread_body + 126
+     # 18  libsystem_pthread.dylib             0x00007fff6ba1f249 _pthread_start + 66
+     # 19  libsystem_pthread.dylib             0x00007fff6ba1b40d thread_start + 13
+     # ./spec/yahoo/add_free_agent.rb:15:in `login_yahoo'
+     # ./spec/yahoo/add_free_agent.rb:43:in `block (2 levels) in <top (required)>'
+     # ./spec/spec_helper.rb:26:in `block (2 levels) in <top (required)>'
+
+  4) Add free agents to Fantasy Football league Log in and add/drop another player
+     Failure/Error: find('#login-passwd').set(password)
+
+     NoMethodError:
+       undefined method `map' for nil:NilClass
+     # ./spec/yahoo/add_free_agent.rb:12:in `login_yahoo'
+     # ./spec/yahoo/add_free_agent.rb:43:in `block (2 levels) in <top (required)>'
+     # ./spec/spec_helper.rb:26:in `block (2 levels) in <top (required)>'
+
+Finished in 2 minutes 45.4 seconds (files took 1.18 seconds to load)
+4 examples, 4 failures
+
+Failed examples:
+
+rspec ./spec/yahoo/add_free_agent.rb:50 # Add free agents to Fantasy Football league Log in and add/drop player
+rspec ./spec/yahoo/add_free_agent.rb:55 # Add free agents to Fantasy Football league Log in and add/drop player
+rspec ./spec/yahoo/add_free_agent.rb:60 # Add free agents to Fantasy Football league Log in and add/drop another player
+rspec ./spec/yahoo/add_free_agent.rb:65 # Add free agents to Fantasy Football league Log in and add/drop another player
+
+Thu Sep 12 04:07:48 EDT 2019
+DONE
